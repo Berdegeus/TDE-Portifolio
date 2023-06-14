@@ -66,6 +66,7 @@ const Contact = () => {
                         transition={{ duration: 0.4 }}
                         viewport={{ once: true }}
                     >
+                        <input type="hidden" name="_next" value="https://portifolio-bernardo.vercel.app/" />
                         <input type="hidden" name="_template" value="box" />
                         <input type="hidden" name="_autoresponse" value="Recebi sua mensagem, muito obrigado por entrar em contato! Responderei o mais rápido possível..." />
                         <label htmlFor='Nome' className="flex flex-col gap-3 w-full items-center md:items-start">

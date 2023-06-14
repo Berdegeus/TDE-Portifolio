@@ -39,7 +39,7 @@ const Ra = () => {
                             className='mb-4'
                             text={{
                                 English: 'Teacher Marina de Lara',
-                                Portugues: 'Professor Marina de Lara'
+                                Portugues: 'Professora Marina de Lara'
                             }}
                         />
                         <Text
