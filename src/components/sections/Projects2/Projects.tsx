@@ -7,7 +7,7 @@ import { motion } from 'framer';
 
 import ContainerCommom from "@/components/ContainerCommom";
 
-import Batalha from '../../../assets/Benz.png';
+import Batalha from '../../../assets/Batalha.png';
 import Rega from '../../../assets/Rega.png';
 import Calculadora from '../../../assets/Calculadora.png';
 
@@ -44,7 +44,7 @@ const Projects2 = ({ loading }: { loading?: Dispatch<SetStateAction<boolean>> })
         {
             imgSrc: Batalha.src,
             titleComponent: { Portugues: "Batalha naval", English: "Battleship Game" },
-            description: { Portugues: "Batalha Naval online em python com TKinter", English: "Online Battleship game in Python with Tkinter" },
+            description: { Portugues: "Batalha Naval online em python com PyGames", English: "Online Battleship game in Python with PyGames" },
             Repo: "https://github.com/Berdegeus/BatalhaNaval",
         },
     ];
